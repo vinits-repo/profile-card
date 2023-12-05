@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Outfit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+    width: 100%;
+}
+
+.main{
+    background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+    background-position: -50% -490px, 145% 250px;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 15px;
+    max-width: 350px;
+    overflow: hidden;
+}
+
+.upper-container{
+    height: 150px;
+    width: 350px;
+    background: url("bg-pattern-card.svg");
+    background-size: cover;
+}
+
+.victor-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -50px auto -30px auto;
+    border: 5px solid hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+.victor-img .v-img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.card-body{
+    margin-bottom: 20px;
+}
+
+.card-body .name{
+    font-size: 1.4rem;
+}
+
+.card-body .city{
+    margin: 10px;
+}
+
+.card-body .age, .city, .act{
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.bottom-container .act {
+    display: block;
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: hsl(0, 0%, 59%);
+}
+.bottom-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding-inline: 50px;
+    padding-top: 23px;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
